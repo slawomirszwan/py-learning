@@ -216,6 +216,63 @@ potem :
 git commit -m "Usunięto plik nazwa_pliku"
 
 --------
+git add .
+
+git commit -m "zzzzzzzzzzzzz"
+
+
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/github/info.txt
 
 
 ----
+
+url naszego repo w github
+
+https://github.com/slawomirszwan/py-learning.git
+
+========================================================
+menu
+git
+
+Git Remotes
++
+name: origin
+URL: https://github.com/slawomirszwan/py-learning.git
+
+OK
+adding remote
+OK
+
+-------------------------
+push zmiany:
+Commit and PUSH
+
+PULL origin  master
+
+===========================
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git log
+commit 855930a362c81955b732e8b88b38a236e94a0e92 (HEAD -> master, origin/master)
+Author: slawomirszwan <slawomir.szwan@gmail.com>
+Date:   Mon Mar 11 10:41:11 2024 +0100
+
+    Create README.md
+
+commit 24eacbf41f84138ebc1baea7348b8734ef806f9e
+Author: slawomirszwan <slawomir.szwan@gmail.com>
+Date:   Mon Mar 11 10:39:13 2024 +0100
+
+    add gitignore
+
+commit 70801681845d27d4247be6acef0d740e4d830085
+Author: Szwan Sławomir <slawomir.szwan@mf.gov.pl>
+Date:   Mon Mar 11 10:21:05 2024 +0100
+
+    Wprowadzenie zmian poczatek repozytorium
+
+===================================
+
