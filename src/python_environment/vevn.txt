@@ -1,0 +1,34 @@
+sprawdzenie w jakim środowisku aktualnie pracujemy
+
+
+WIndows:
+where python
+
+sprawdzamy gdzi jest python z którego korzystamy aktualnie
+
+linux:
+which python
+
+-----------------------------------
+aktywacja środowiska
+
+tworzenie środowiska wirtualnego w folderze projektu (w aktualnym folderze za pomoca modułu vevn zostanie utworzone środowisko
+python -m vevn  vevn
+
+z modułu vevn tworzy środowisko o nazwie vevn
+
+
+aktywacja:
+\path\to\env\Scripts\activate
+windows
+
+a w linux
+source /path/to/env/bin/activate
+
+dezaktywowanie środowiska wirtualnego
+
+deactivate
+
+
+Aktualne środowisko pokazuje się w lini komend terminala:
+(env_name) user@hostname:~$

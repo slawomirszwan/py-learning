@@ -1,0 +1,2 @@
+umożliwia zamianę folderu z plikami py w moduł
+

@@ -1,0 +1,15 @@
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> pip install openpyxl
+Collecting openpyxl
+  Obtaining dependency information for openpyxl from https://files.pythonhosted.org/packages/6a/94/a59521de836ef0da54aaf50da6c4da8fb4072fb3053fa71f052fd9399e7a/openpyxl-3.1.2-py2.py3-none-any.whl.metadata
+  Downloading openpyxl-3.1.2-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting et-xmlfile (from openpyxl)
+  Downloading et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Downloading openpyxl-3.1.2-py2.py3-none-any.whl (249 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 250.0/250.0 kB 807.2 kB/s eta 0:00:00
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.1.2
+
+[notice] A new release of pip is available: 23.2.1 -> 24.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject>
+

@@ -1,0 +1,11 @@
+czy dodatkowy folder src na pliki jest OK ?
+obok .vevn
+
+
+praktyka OK - dobra praktyka, szczególnie dla dużych projektów
+
+src zawiera główny kod aplikacji
+
+subfoldery dla modułów
+
+__init__.py nawet pusty organizuje folder w moduł

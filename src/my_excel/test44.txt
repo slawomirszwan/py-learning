@@ -1,0 +1,157 @@
+def transform_data_dict(data, map_list):
+    # list for mapping
+    # row_map_list = [
+    #     {
+    #         "column_name": "Specjalnosc",
+    #         "map_func": str.capitalize},
+    #     {
+    #         "column_name": "Data_urodzenia",
+    #         "map_func": lambda x: datetime.strptime(x, "%Y-%m-%d")
+    #     }
+    # ]
+
+    column_names, data_dict_list = data.get("column_names"), data.get("data")
+
+    new_data_dict_list = []
+    for row_dict in data_dict_list:
+        for map_dict in map_list:
+            column_name = map_dict["column_name"]
+            map_func = map_dict["map_func"]
+            row_dict[column_name] = map_func(row_dict[column_name])
+        new_data_dict_list.append((row_dict))
+    return new_data_dict_list
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+pacjenci_file = "../data_files/pacjenci.txt"
+
+row_gen = next_line_file_gen(pacjenci_file)
+
+header_line = next(row_gen)
+column_names = header_line.split()
+# print(f"{column_names=}")
+
+# list for mapping
+row_map_list = [
+
+    {
+        "column_name": "Data_urodzenia",
+        "map_func": lambda x: datetime.strptime(x, "%Y-%m-%d")
+    }
+]
+
+row_dict_gen = (
+    map_row_dict(
+        dict(zip(column_names, line.split())),
+        row_map_list
+    )
+    for line in row_gen
+)
+
+pacjent = {
+    "file": pacjenci_file,
+    "column_names": column_names,
+    "data": list(row_dict_gen)
+}
+
+
+def pacjenci_lista(data):
+    print('-' * 20, 'pacjenci_lista', sep='\n')
+    print(*data, sep="\n")
+
+
+# pacjenci_lista(pacjent.get("data"))
+
+==================
+wizyty_file = "../data_files/wizyty.txt"
+
+row_gen = next_line_file_gen(wizyty_file)
+
+header_line = next(row_gen)
+column_names = header_line.split()
+# print(f"{column_names=}")
+
+# list for mapping
+row_map_list = [
+
+    {
+        "column_name": "Data_wizyty",
+        "map_func": lambda x: datetime.strptime(x, "%Y-%m-%d")
+    }
+]
+
+row_dict_gen = (
+    map_row_dict(
+        dict(zip(column_names, line.split())),
+        row_map_list
+    )
+    for line in row_gen
+)
+
+wizyta = {
+    "file": wizyty_file,
+    "column_names": column_names,
+    "data": list(row_dict_gen)
+}
+
+
+def wizyty_lista(data):
+    print('-' * 20, 'lekarze_lista', sep='\n')
+    print(*data, sep="\n")
+
+
+# wizyty_lista(wizyta.get("data"))
+
+-------------------------
+def filtered_dict(r, selected_columns):
+    return {key: value for key, value in r.items() if key in selected_columns}
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+map_row_dict(row_dict, map_list):
+    for map_dict in map_list:
+        column_name = map_dict["column_name"]
+        map_func = map_dict["map_func"]
+        row_dict[column_name] = map_func(row_dict[column_name])
+    return row_dict
+
+
+def transform_row_dict(row, map_func):
+    return map(map_func, row)
+
+
+
+
+
+
+# def transform_data_dict(data, map_list):
+#     # list for mapping
+#     # row_map_list = [
+#     #     {
+#     #         "column_name": "Specjalnosc",
+#     #         "map_func": str.capitalize},
+#     #     {
+#     #         "column_name": "Data_urodzenia",
+#     #         "map_func": lambda x: datetime.strptime(x, "%Y-%m-%d")
+#     #     }
+#     # ]
+#
+#     column_names, data_dict_list = data.get("column_names"), data.get("data")
+#
+#
+#     new_data_dict_list = []
+#     for row_dict in data_dict_list:
+#         for map_dict in map_list:
+#             column_name = map_dict["column_name"]
+#             map_func = map_dict["map_func"]
+#             row_dict[column_name] = map_func(row_dict[column_name])
+#         new_data_dict_list.append((row_dict))
+#     return new_data_dict_list
+
+
+def transform_data_dict(data, map_func):
+    return [ map(map_func, row_dict)  for row_dict in data.get("data") ]
+

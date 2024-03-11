@@ -1,0 +1,23 @@
+https://github.com/driscollis/image_processing_with_python
+
+Pillow: Image Processing with Python(Book Code)
+
+Pillow: Image Processing with Python (Book Code)
+--------------------------------------------------
+
+https://github.com/driscollis/reportlabbookcode
+
+Code examples for the book, ReportLab: PDF Processing with Python
+
+ReportLab: PDF Processing with Python
+
+
+----------------------------------
+https://github.com/driscollis/python101code/blob/master/chapter13_comprehensions/Chapter%2013%20-%20Python%20Comprehensions.ipynb
+
+
+
+
+
+
+

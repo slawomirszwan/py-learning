@@ -1,0 +1,221 @@
+przeniesienie projektu z pycharm do github
+
+żeby mieć dostęp niezależnie od miejsca
+
+==========================================================
+Przeniesienie projektu z PyCharm do GitHub obejmuje kilka kroków:
+
+Utworzenie repozytorium na GitHubie:
+
+1) utworzenie nowego projektu na github
+Zaloguj się do swojego konta na GitHubie.
+Na stronie głównej GitHuba znajdź przycisk "New" lub "+", aby utworzyć nowe repozytorium.
+Nadaj nazwę swojemu repozytorium, dodaj opis (opcjonalnie) i wybierz inne ustawienia według potrzeb.
+Kliknij przycisk "Create repository".
+Inicjalizacja repozytorium Git w swoim projekcie:
+
+2) objęcie plików kontrolą wersji git
+Otwórz projekt w PyCharm.
+Przejdź do ustawień VCS (Version Control System) w PyCharm.
+Wybierz "Enable Version Control Integration" i wybierz system kontroli wersji Git.
+Po włączeniu kontroli wersji, możesz zobaczyć zmiany w plikach na pasku po lewej stronie.
+Dodanie plików do repozytorium Git:
+
+3) dodajemy pliki do git
+Przejdź do zakładki Version Control w PyCharm.
+Zaznacz pliki i foldery, które chcesz dodać do repozytorium.
+Kliknij prawym przyciskiem myszy i wybierz "Add to VCS" lub użyj opcji "Git" w górnym menu.
+Utworzenie commita:
+
+
+4) commit-ujemy nasz projekt
+Po dodaniu plików do repozytorium, przejdź do zakładki Commit w PyCharm.
+Wybierz pliki, których chcesz dokonać commita.
+Wpisz krótki opis zmian w polu komentarza commita.
+Kliknij "Commit" lub użyj skrótu klawiszowego Ctrl + K.
+Powiązanie z repozytorium na GitHubie:
+
+5) ustawiamy repozytorium zdalne remote na nasze repozytorium na github
+Skopiuj adres URL repozytorium GitHuba, które utworzyłeś wcześniej.
+Wróć do PyCharm.
+Przejdź do ustawień zdalnych Git.
+Dodaj nowe zdalne repozytorium i podaj adres URL repozytorium na GitHubie.
+Zapisz ustawienia zdalne.
+Wysłanie zmian do GitHuba:
+
+6) push zmiany na remote repozytorium
+Po dodaniu i zacommitowaniu zmian, przejdź do zakładki Git w PyCharm.
+Wybierz "Push" lub użyj opcji "Push" z górnego menu.
+Potwierdź operację pushowania zmian na zdalne repozytorium.
+Twoje zmiany powinny zostać przesłane na repozytorium GitHuba. Teraz możesz sprawdzić swoje repozytorium na GitHubie, aby upewnić się, że wszystko zostało przesłane poprawnie.
+
+=============================================================
+a co z folderem .vevn
+
+Zazwyczaj wirtualne środowiska Pythona (takie jak .venv lub venv) nie są dodawane do repozytorium na GitHubie. Istnieje kilka powodów, dla których tego się unika:
+
+Rozmiar i zawartość: Wirtualne środowisko może zawierać wiele plików i bibliotek, co może znacząco zwiększyć rozmiar repozytorium.
+
+Powtarzalność: Zależy się od pliku requirements.txt lub Pipfile.lock do zdefiniowania zależności projektu. Te pliki są zwykle dodawane do repozytorium, a wirtualne środowisko jest tworzone na podstawie tych plików na lokalnej maszynie programisty.
+
+Konsystencja: Wirtualne środowisko może różnić się między różnymi systemami operacyjnymi. Przechowywanie go w repozytorium może prowadzić do problemów z konsystencją między środowiskami deweloperskimi.
+
+Dlatego zwykle zaleca się dodawanie do repozytorium jedynie plików zależności (takich jak requirements.txt lub Pipfile.lock) oraz ewentualnie instrukcji do utworzenia wirtualnego środowiska, aby inni programiści mogli łatwo utworzyć swoje własne wirtualne środowisko na podstawie tych plików.
+
+W skrócie, nie dodaje się zwykle folderu .venv do repozytorium na GitHubie. Zamiast tego, podaje się pliki zależności i instrukcje do utworzenia wirtualnego środowiska.
+
+===========================================================
+tworzymy repo w github
+
+nasz projekt na C: w folderze
+pythonProject
+
+https://github.com/
+zalogować się do swojego konta
+
+
+utworzenie repo
+https://github.com/slawomirszwan/py-learning
+
+Ad2-----------
+sprawdzamy czy objęty gitem
+
+terminal
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+fatal: not a git repository (or any of the parent directories): .git
+
+sorry - ale nie !!!!!!!!!!!!!!!
+
+albo "Create Git repository"
+"Version control integration
+
+-------------------------------------
+
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+mamy repo folder .git
+
+
+===========================================================
+a co z folderem .idea czy go dołączać do git
+
+Folder .idea jest domyślnym folderem konfiguracyjnym używanym przez środowisko programistyczne PyCharm. Zawiera on ustawienia projektu oraz preferencje deweloperów, takie jak konfiguracje środowiska, ustawienia edytora, pliki debugowania itp.
+
+Zazwyczaj folder .idea nie jest dołączany do repozytorium Git. Istnieje kilka powodów:
+
+Prywatne ustawienia: Folder .idea może zawierać ustawienia specyficzne dla środowiska dewelopera, takie jak ścieżki do lokalnych interpreterów Pythona, ustawienia edytora itp. Udostępnianie tych ustawień może prowadzić do konfliktów i problemów z konsystencją w zespole deweloperskim.
+
+Różnice między platformami: Konfiguracje w folderze .idea mogą się różnić między różnymi systemami operacyjnymi, co może prowadzić do problemów z konsystencją.
+
+Nieistotne dla projektu: W większości przypadków pliki w folderze .idea nie są istotne dla samego projektu i powinny być traktowane jako ustawienia lokalne dewelopera.
+
+Zaleca się dodanie folderu .idea do pliku .gitignore, aby uniknąć dodawania go do repozytorium. Jednak jeśli istnieją istotne ustawienia, które są wymagane dla projektu lub zespołu, można je przechowywać w formie plików konfiguracyjnych lub skryptów i dodawać je do repozytorium w bardziej kontrolowanej formie.
+
+
+
+=============================
+jak nie dołączymy .vevn
+
+to zrobimy info jak odtworzyć środowisko developerskie
+
+==============================================
+skopiowanie .gitignore z github
+do .gitignore lokalnie
+
+odremowanie folderu
+.idea/
+
+nie chce ustawień PyCharm na github!!!
+.vevn już jest
+
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        src/
+
+-----------
+
+dodamy jeszcze ignorowanie samego .gitignore
+
+# Ignorowanie samego pliku .gitignore
+.gitignore
+
+----------
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/
+
+-----------
+git status
+pokazuje jakie zmiany jeszcze nie sa versjonowane
+ lista plików, które są śledzone przez Git i które zostały zmodyfikowane w bieżącym repozytorium, możesz użyć polecenia git status
+
+
+-----------
+
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git log
+fatal: your current branch 'master' does not have any commits yet
+
+jeszcze nie robiliśmy comita
+-----------
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status --short
+?? src/
+
+---------
+sprawdzmay które pliki są śledzone
+
+
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git ls-files
+pliki śledzone i nie śledzone
+nic
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git ls-files --cached
+nic
+----
+
+
+git add .
+dodaje wszystkie pliki zmodyfikowane do śledzonych
+
+
+git add -u
+dadaje wszystkie zmienione pliki które są już śledzone
+
+potem
+git commit -m "Opis zmiany"
+
+--------
+git rm nazwa _pliku
+usuwa śledzenie  (usuwa ze śledzenia i jednocześnie z dysku!!!!
+
+
+git rm --cached nazwa_pliku
+usuwa ze śledzenia ale pozostawia na dysku
+
+potem :
+git commit -m "Usunięto plik nazwa_pliku"
+
+--------
+
+
+----
