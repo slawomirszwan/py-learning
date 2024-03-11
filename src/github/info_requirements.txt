@@ -1,0 +1,68 @@
+zamiast bibliotek
+na github
+
+tylko informacja o bibliotekach do dodania przez pip
+
+------------------
+Aby wygenerować plik requirements.txt, który zawiera listę zależności Twojego projektu Python,
+najczęściej używany sposób to wykorzystanie narzędzia pip. Poniżej przedstawiam kroki, jak to zrobić:
+
+Aktywacja wirtualnego środowiska (opcjonalne, ale zalecane):
+Jeśli korzystasz z wirtualnego środowiska (np. venv), aktywuj je przed instalacją lub sprawdź, czy jest ono aktywne. Oto jak to zrobić:
+
+python -m vevn vevn
+tworzy wirtualne środowisko
+---------------
+Dla systemów Linux/macOS:
+w bash:
+---
+source venv/bin/activate
+
+--------------
+Dla systemu Windows:
+venv\Scripts\activate
+----
+
+Instalacja wszystkich zależności projektu:
+Upewnij się, że znajdujesz się w katalogu projektu i zainstaluj wszystkie zależności za pomocą pip.
+Oto jak to zrobić:
+----
+pip install -r requirements.txt
+
+
+--------------------------------------
+Generowanie pliku requirements.txt:
+Teraz możesz wygenerować plik requirements.txt, który zawiera listę zainstalowanych pakietów.
+Oto polecenie:
+---
+pip freeze > requirements.txt
+To polecenie spowoduje zapisanie wszystkich zainstalowanych pakietów w bieżącej środowisku wirtualnym
+do pliku requirements.txt.
+
+----------------
+certifi==2024.2.2
+charset-normalizer==3.3.2
+et-xmlfile==1.1.0
+idna==3.6
+openpyxl==3.1.2
+requests==2.31.0
+urllib3==2.2.1
+
+------------------
+Plik requirements.txt zawierać będzie listę zainstalowanych pakietów wraz z ich wersjami.
+Jest to standardowy sposób przechowywania zależności Pythona w projektach,
+co ułatwia innym osobom zainstalowanie tych samych zależności, gdy współpracują nad projektem.
+
+
+
+==============================
+jak ktoś pobierze plik z repozytorium github
+
+to aktywuje wirtualne środowisko
+
+
+python -m vevn vevn
+venv\Scripts\activate
+
+i zainstaluje wymagane pakiety bibliotek
+pip install -r requirements.txt
