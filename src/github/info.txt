@@ -275,4 +275,8 @@ Date:   Mon Mar 11 10:21:05 2024 +0100
     Wprowadzenie zmian poczatek repozytorium
 
 ===================================
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
 
