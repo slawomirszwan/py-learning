@@ -1,0 +1,33 @@
+Aby przenieść kod z gałęzi master do gałęzi main w repozytorium Git, wykonaj następujące kroki:
+
+Upewnij się, że obecnie znajdujesz się na gałęzi master. Możesz to sprawdzić za pomocą polecenia:
+
+Copy code
+git branch
+Upewnij się, że masz najnowszą wersję gałęzi master poprzez pobranie zmian ze zdalnego repozytorium:
+
+Copy code
+git pull origin master
+Utwórz gałąź main na podstawie gałęzi master:
+
+css
+Copy code
+git branch main master
+Przełącz się na gałąź main:
+
+css
+Copy code
+git checkout main
+Wyślij zmiany do zdalnego repozytorium:
+
+css
+Copy code
+git push origin main
+Opcjonalnie, można usunąć gałąź master na zdalnym repozytorium:
+
+perl
+Copy code
+git push origin --delete master
+Po wykonaniu tych kroków, kod, który był wcześniej na gałęzi master, zostanie przeniesiony na gałąź main, a gałąź master zostanie usunięta ze zdalnego repozytorium, jeśli zdecydujesz się na jej usunięcie. Pamiętaj, że ta zmiana również wpłynie na lokalne repozytorium, więc jeśli potrzebujesz gałęzi master w przyszłości, upewnij się, że masz kopię zapasową lub możesz ją odtworzyć.
+
+
