@@ -2,26 +2,27 @@ Aby przenieść kod z gałęzi master do gałęzi main w repozytorium Git, wykon
 
 Upewnij się, że obecnie znajdujesz się na gałęzi master. Możesz to sprawdzić za pomocą polecenia:
 
-Copy code
+
 git branch
 Upewnij się, że masz najnowszą wersję gałęzi master poprzez pobranie zmian ze zdalnego repozytorium:
 
-Copy code
+"""
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git branch
+* master
+"""
+
 git pull origin master
 Utwórz gałąź main na podstawie gałęzi master:
 
-css
-Copy code
+
 git branch main master
 Przełącz się na gałąź main:
 
-css
-Copy code
+
 git checkout main
 Wyślij zmiany do zdalnego repozytorium:
 
-css
-Copy code
+
 git push origin main
 Opcjonalnie, można usunąć gałąź master na zdalnym repozytorium:
 
@@ -31,3 +32,36 @@ git push origin --delete master
 Po wykonaniu tych kroków, kod, który był wcześniej na gałęzi master, zostanie przeniesiony na gałąź main, a gałąź master zostanie usunięta ze zdalnego repozytorium, jeśli zdecydujesz się na jej usunięcie. Pamiętaj, że ta zmiana również wpłynie na lokalne repozytorium, więc jeśli potrzebujesz gałęzi master w przyszłości, upewnij się, że masz kopię zapasową lub możesz ją odtworzyć.
 
 
+====================================================================
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+        new file:   "src/github/zmiana ga\305\202\304\231zi z master do main.txt"
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   "src/github/zmiana ga\305\202\304\231zi z master do main.txt"
+
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git add .
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git commit -m "zmiana z master do main"
+ 1 file changed, 33 insertions(+)
+ create mode 100644 "src/github/zmiana ga\305\202\304\231zi z master do main.txt"
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git push origin
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 3.63 KiB | 743.00 KiB/s, done.
+Total 12 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 5 local objects.
+To https://github.com/slawomirszwan/py-learning.git
+   f038e62..565c942  master -> master
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+(.venv) PS C:\Users\cgpf\PycharmProjects\pythonProject>
+=========================================================
