@@ -6,7 +6,7 @@ from Zwierze import Zwierze
 class RejestrZwierzat:
     def __init__(self, id_start):
         self.zwierzeta = []
-        self.ostatnie_id = 0
+        # self.ostatnie_id = 0
         # self.id_iterator = Id_iterator(id_start)
         self.id_generator = next_number_generator(id_start)
 
@@ -33,4 +33,4 @@ if __name__ == "__main__":
     rejestr.dodaj_zwierze("Lew", "Lew afrykański", "2008-05-15", 180, 100)
     rejestr.dodaj_zwierze("Słoń", "Słoń indyjski", "2010-10-20", 3000, 300)
 
-    print(print(rejestr.view()))
+    print(rejestr.view())
