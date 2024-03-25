@@ -1,0 +1,101 @@
+
+instalacja anacondy
+
+www
+anacondaa
+download
+Windows
+for python 3.7 ver
+
+500MB 64bit
+
+================
+środowisko open source
+
+data since , uczenie maszynowe , biblioteki już dodane
+pandas tensaflow ,....
+
+----------
+ene install
+
+next
+recomended
+default path
+install
+
+
+-----
+next
+next
+finish
+
+uruchomienie
+Anaconda Navigator
+
+uruchamia nawigatora
+
+program spider
+do analiz
+
+Tools / preferenc / czcionka 14
+syntax coloring Scheme motyw Monokai , Zenburn wybrany
+Apply
+
+Editor /  Advanded setting
+automatyczne zamykanie "
+
+
+============
+
+print('hello')
+
+czy działa
+
+zielona > run
+
+#%%
+dzieli na komórki kodu do uruchamiania osobno
+
+-------------
+Spider !!!!!!!
+
+
+variable explorer - podgląd  po prawej stronie ugóry
+obiekty co tam jest
+
+nauka przez spider łatwiejsza niż  w PY...
+
+
+Consola
+pwd
+C:\users\user
+
+katalog roboczy
+
+--
+zmiana katalogu roboczego
+file explorer
+
+nowy folder / kurs
+wejdziemy
+i tam pliki razem w jednym folderze
+
+
+ppmysz / new file / 01_into.py
+
+nowe okno
+
+
+
+====================================================
+kurs szkoleniowy python
+
+https://github.com/krakowiakpawel9/python_kurs
+
+forkujemy projekt do swojego konta
+
+create fork
+slawomirszwan /python_kurs
+
+
+

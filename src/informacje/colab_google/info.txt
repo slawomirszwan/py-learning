@@ -1,0 +1,97 @@
+google.com
+
+logowanie na onto google
+login
+hasło
+
+--
+dysk google chmurowy
+otwórz dysk google
+
+starage za darmo w chmurze 15GB
+
+nowy notebook
++ Nowy
+Więcej  / Google Colaboratory
+
+google Colab
+untitled0.ipynb
+
+
+----
+
+kolorystyka ciemna
+z menu Tools / Settings /
+Site / THeme / dark
+
+----
+
+notatnik
+
+Code
+Text
+
+print('Hello Colab')
+Shift Enter uruchamia
+
+w chmurze
+
+kolejna komórka code / text
+
+mark down pisanie
+
+pasek po lewej stronie:
+spis treści
+
+zakłądka
+Files   / sample_data
+przykładowe dane do analiz
+
+----
+upload można wrzucić własne pliki
+
+---------
+opcja
+runtime
+można zrestartować
+
+
+run all
+run before
+
+change runtime python3 lub inny
+
+hardware
+
+----
+File zapis
+save as github
+
+albo na dysk google
+nazwa info.ipynb
+
+kopia pliku
+
+save as github
+
+podać credential go github login hasło
+
+
+
+https://github.com/krakowiakpawel9
+https://github.com/krakowiakpawel9/python_kurs
+https://www.udemy.com/course/cwiczenia-jezyk-python-data-science-pandas/?couponCode=UPGRADE02223
+
+
+https://github.com/krakowiakpawel9/pandas_course
+
+https://github.com/krakowiakpawel9/data-science-bootcamp
+
+
+-----------------
+ścieżka jaki branch w github
+i przesłanie
+
+storage do dysku google
+i na github
+
