@@ -1,0 +1,202 @@
+2023-05-19-kable-test.txt
+
+kable drut
+
+
+test obci¹¿enia
+
+
+odcinki
+
+pr¹d ile daj¹ radê ekstremalnie
+krótkie kawa³ki
+
+pr¹d 
+
+
+---------------------
+r wewnêtrzna 1kohm
+zewnêtrzna 10kohm do 1Mohm w zaleznoci od wilgoci
+
+------------------
+wy³¹cznik nadpr¹dowy
+B6
+B10
+
+------------------
+16mm2
+20mm2
+
+
+==============
+1.5mm2 drut 
+
+ile wytrzyma odcinek 10cm
+
+przepali³ siê   140A
+
+
+
+2.5mm2
+
+drut
+linka
+
+200A
+jak d³ugo wytrzyma 
+nic nie znaczy testy zabawa
+
+============
+4mm2
+miedz       1085stC
+aluminium
+
+250A
+
+
+aluminium !!
+4mm2   300A czerwona ale nie przerwa³o - drut zgrzany zmieni³ opór
+
+s³abszy
+mechanicznie 
+
+=============
+
+ 
+
+
+==============
+1.5mm2 linka 
+
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+d³ugotrwa³a
+
+
+test wago do 40A     wago 221 oryginalny
+
+pirometr napkierowany na pow³okê przewodu
+
+
+pcv wytrzymuje ok 70stC      powy¿ej miêknie 
+polichrolek winylu
+
+
+wago max 105stC
+
+---------
+AWG 20-10
+0.5-6 mm2
+450V / 41A
+
+
+-------------
+
+testy podnoiszenie pradu o 5A
+od 20 do 50A
+przez 5 minut i sprawdzanie temperatury
+
+ 
+
+w tynku jeszcze gorzej - cieplej
+na tylku to wytrzyma wiêcej w, bo ch³odzi siê 
+wg tabelki
+
+
+=============================================================================
+modernizacja instalacji
+
+starej na now¹ 
+z S-kami
+
+topikowe i automatyczny bezpiecznik
+
+
+wy³¹cznik nadpradowy 1P B16A   6kA KMB6-B16/1 23140  IDEAL 
+
+
+
+
+obudowa firmy KANLUX
+
+IDEAL
+
+lampla
+
+
+czy nie zamieniony fazowy z neutralnym !!! przed wymian¹
+mo¿e do poprawy
+
+-------------
+
+przed³u¿enie kabli przez WAGO
+
+
+
+bezpiecznik 10A
+B10
+
+B16 rezerwowe
+
+KLI-G - lampka
+
+klucz dynamomertyczny
+
+
+===============================
+NA szynê trafi³y:!!!!!!!!
+---------------
+
+blok rozdzielczy 1potencja³owy
+100A
+4x2.5-25mm2
+
+------------
+roz³³acznik modu³owy 63A
+----------------
+
+wy³³acznik ró¿nicowo pr¹dowy 2P 25A 30mA
+
+--------------
+5x wy³aczników nadpr¹dowych
+1P B16A 6kA
+
+(1 Ska rezerwowa)
+
+----------------
+zabezpieczenie obwodu  owietlenia 
+ró¿nico-pr¹dowy 2P 10A 30mA       z cz³onem nadpr¹dowym B10
+
+zintegrowany !!!!!!!!!!!!!
+
+------------------
+z klatki schodowej kabel p³atki dY 4mm2
+
+ochronny do prawej górnej szyny
+-----------------------------------
+neutralny do bloku rozdzielczego na szynie
+ 
+
+br¹zowy do od³¹cznika 
+ 
+
+
+
+kabel 6mm2  linka zaprasowanie koñcówek
+
+
+
+======================================
+przed³u¿anie kabla np u³amanego
+
+
+
+----------------------------------
+
+
+zu¿ycie roczne 
+5000 kWh
+
+wtedy 5000Wp
+
+
+---------------------------------

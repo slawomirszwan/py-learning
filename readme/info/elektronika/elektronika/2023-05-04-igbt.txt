@@ -1,0 +1,597 @@
+igbt
+
+
+mosfet 
+albo igbt
+
+
+kiedy stosowaæ
+
+lepsze n
+p maj¹ gorsze efekty
+
+
+IRGP50B60PD1
+
+
+
+https://www.youtube.com/watch?v=RxRJW09A_XA
+
+
+
+
+
+po³¹czenie mosfet w bramce i bipolarnego
+szybsze prze³¹czanie duzych mocy
+
+
+nie maj¹ Ron = 0.2Ohm jak mosfet
+
+ale napiêcie nasycenia UCE 0.2V 
+co przy duzych pradach da mniejszy pobór pr¹du
+
+
+p=u2 /r  
+i2*r
+100A*100A * 0,02 = 200W
+mosfet
+
+igbt
+100A * 0.2V =  2W 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+a wyzwalany w bramce jak mosfet
+bez pr¹dowo
+
+
+
+GATE COLLEKTOR EMITER
+
+
+
+
+nie przekroczyæ max napiêcia bramka emiter
++20V
+
+
+--------------------
+po od³¹czeniu bramki pozostaje w³¹czony - rezystor  !!!
+¿eby nie wisia³a bramka
+
+
+
+bramka zachowuje siê jak kondensator (jak mosfet)
+
+
+
+
+
+w³¹czenie 
+15V
+
+napiecie na bramce w³¹czenie
+
+
+
+jesli 
+PWM    o czêstotliwosci wikszej ni¿ 20kHZ
+to lepiej u¿yæ dedykowany driver
+
+scalak TC4420 !!!!!!!!!!!!!!!  ³amane na  TC4429   (sterownik do mosfet ale mo¿e byæ do IGBT)
+
+zmniejsze straty mocy, lepsze sterowanie
+ szybciej prze³adowuje kondensator na bramce
+ 
+ 
+
+prze³¹cza bramkê albo do VDD albo masy - tylko te stany
+mniejsze straty   on off
+
+ 
+potrzeba okreslonego ³adunku ¿eby w³¹czyæ  prze³adowaæ
+
+
+Q= I*t 
+
+okresy przejciowe   zmniejszyæ
+
+
+========================
+
+  inne rozwi¹zanie sterowniki jak IR2113 moga byc u¿yte do ³adowania poczatkowego
+  
+  IR2110
+  
+  -
+  zapewnienie niezbednego wysokiego napiêcia bramki do ³¹czeia igbt po stronie wysokiego napiêcia
+  
+  
+  
+  czas dla    wzrostu i zaniku
+  IGBT :  145ns i 240ns
+ 
+z czasem dla mosfet   32ns i 160ns 
+  
+widaæ ¿e mosfet zmienia stan szybciej
+!!!!!!!!!!!!!!
+ózwnie¿ w nocie katalogowej jest potwierdzenie
+
+
+
+ZWYKLE IGBT przy czestotliwosci < 200kHZ , a mosfety przy wy¿szych !!!!
+
+
+-----------------------
+porównanie zuzycia energii :
+
+
+mosfet o U dren Ÿrós³o  0.0242V  , pr¹d 1.7A
+rozprasza tylko 0.04W
+
+
+
+IGBT U CS 0.79V   , prad 1.645A  
+
+rozprasza 1.3W !!!!!!!!!!
+
+
+==============
+bo spadek napiêcia w mosfet ronie liniowo z pradem  , zachowuje siê jak sta³uy opornik
+0.025 ohm
+
+
+
+igbt
+
+0.79/1.65
+r=0.48 ohm
+wiêkszy opór przy niskich pr¹dach !!!!
+
+
+
+ale mo¿e obs³u¿yæ wiêcej pradu ni¿ mosfet
+i oso¹ga poziom w którym jest lepszy
+
+Vce < Vds
+
+
+
+w po³¹czeniu z wysokim napiêciem szczytowym CE ni¿ mosfet
+s¹ lepsze w zastosowania wysokopr¹dowych i wysokonapieciowych !!!
+                     
+-------------
+                     
+                     
+
+
+
+tranzystor BJT
+jao switch
+bipolarny zwyk³y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================================================
+rok temu zestaw
+
+
+4.55kW
+
+z inwerterem 5kW
+
+
+RAZEM 8800Z³
+===============
+
+ 10sztuk paneli    UL-455M-144HV
+ ulica solar
+ 
+ 
+ 
+ 455W
+ 41.1V
+ 11.07A
+ (otwarty 49.9V, zwarcie 11.64A)
+      
+ 
+ 590Z³ OLX
+!!!!!!!!!!!!!!!!!!!      
+--- 
+ 530z³ - 410W
+ 
+
+                   
+ =======
+ https://www.youtube.com/watch?v=mXvhjvY7OLo
+ 
+ 
+ 315V po³¹czone szeregowo
+ 
+ panele 410 35V 13A
+ 
+ 
+ 315V DC takie jak szczytowe pradu zmiennego
+ prepers !!! pójdzie od razu owietlenie led, zasilacze impulsowe jak z 230AC
+ awaryjnie
+ 
+                
+ 
+-------------------------
+ 
+ 10sztuk paneli    szeregowo  string
+ 
+ 414Vmpp
+ 499Voc
+ 
+ 
+ 
+-----------------------------
+
+  
+produkcja roczna 4550kWh
+oko³o: 3200PLN
+
+zwrot 3 lata
+
+
+------------
+panele nowe ,gwarancja itp
+odbiór osobisty Olsztyn rok temu
+
+
+---------------
+
+mniej ni¿ 500v na rozwarciu !!!!!!!!
+
+
+
+
+przewód 6mm2  (d³ugoæ powy¿ej 10m)
+
+przewód fotowoltaiczny (solarny)
+H1Z2Z2-K 6mm2
+4.80z³ /1m
+
+
+strata mocy 0.5% 
+20metrów
+
+==============================================================================
+
+z³¹czki MC4 
+4.50
+
+
+
+--------------
+zabezpieczenie przeciwprzepiêciowe
+????
+
+ up³yw straty
+
+wk³adka warystorowa 
+
+????????????????? 
+---------
+
+2 warystory , 
+wk³adki
+
+bezpiecznik
+
+ 
+
+ogranicznik przepiêc Eaton 177256
+
+
+15.50pln
+
+
+wk³adka topikowa 
+roz³¹cznik
+
+
+-----------------
+10x38 wiêcej wk³adek 
+
+
+14A z paneli
+ 
+20A zabezpieczenie
+
+-------------------------------------
+inwerter !!!!!!!!!!!
+
+
+tanie opisy
+
+
+na 2500PLN
+
+
+EASUN - opisy 
+
+tanie jako supeokazje niby 48V a jest potem inny!!!
+
+
+
+na we i wy 
+normalne bezpieczniki S 
+B 25 wy³¹cznik nadpradowy 
+B25A 1 FAZ 1P
+6PLN
+
+
+
+rzeczy na szynê !!!!!!!!
+
+
+szyna w dowolnej szafce
+
+rozdzielnika F-Elektro F1.0255
+70PLN
+
+-------------------------
+
+
+
+mocowania do paneli !!!!!!!!!!!
+
+
+
+aluminiowe
+
+bo rdza
+
+styk metali - galwaniczny
+
+aluminium stal momentalnie jony
+¿e¿re i AL i stal
+
+
+
+sruby niezdzewne i nieocynkowane raczej
+wkrêty
+korozja
+
+???????
+
+
+czyny wzd³u¿ dachu
+ogrzewanie 
+
+¿eby nie by³o tamowania przep³ywu powietrza ch³odzenia
+
+z góry na dów belki
+cug powietrza 
+poprzeczki ?????
+
+
+
+
+
+mocowania
+
+
+przewody nie mog¹ le¿eæ na dachu
+
+woda nie wejdzie w instalacjê
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================================
+35m2
+
+dom prefabrykowany 
+rozk³adany
+
+
+stela¿e na szkielecie stalowym
+ocieplenie
+
+poszycie zewnêtrzne wewnêtrzne
+
+
+
+funkcja 
+bezpieczeñstwo (nie namiot)
+zabezpieczenie pogodowe zimno deszcz
+potwierdzenie statusu spo³ecznego
+
+
+ograniczenie miejsca
+8000$
+
+1 kontener rozk³adany !
+
+
+dom nie jako cel ¿ycia - ale narzêdzie
+styl ¿ycia
+
+
+
+cena
+================
+
+
+
+
+
+
+
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+mikroinwernnnnnntery
+
+na zewn¹trz 
+
+WUJEK Stefan
+
+
+miktroinwertety mppt jako 4 stringi
+
+osobno na ka¿dy panel
+
+4 panele !!!!!!
+
+--------------------
+gniazdko do gniazdka
+
+
+balkonowe !!!!!!!!
+
+
+
+deye microiwerter
+
+panele !!!
+
+
+
+
+
+diody bypass
+
+mppt 
+kazdy panel osobno pod³aczany
+
+
+mikto inwerter 
+nie wysokie nap. w pr¹dzie sta³ym
+³uk elektryczny
+
+niskie napiêcie 
+---------------
+
+
+
+450W panel
+
+czarny panel - temperatura ronie
+
+
+10% mniejsza produkcja bo goracy
+
+
+95% 
+5% podgrzewa panel
+
+
+------------------ balkonowe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+https://www.youtube.com/watch?v=24KASXTsdzE
+
+
+
+sterownik omega s1
+
+
+zasilacz
+
+
+zliczanie kWh
+3 grza³ki
+
+
+
+
+
+grza³ka sieciowa 230V AC 10A
+
+140VDC 6A
+140VDC 10A
+140VDC 18A
+
+
+
+
+czujnik CWU  100 stopni C
+
+----------------------
+
+czujnik temperatury  20metrów
+
+
+
+
+
+max VDC bez obcia¿enia  140V
+max IDC 35A
+
+max moc paneli   0.5 do 3.0 kWp
+
+regulacja MPPT   50-140V
+
+
+
+
+3panele     3*41 -> 123v
+i potem stringi równolegle
+
+
+
+
+120*35 => 4200W
+
+============================================
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+VW golf4 lewe œwiat³o mijania tylne
+
+ChatGPT powiedzia³:
+Czy dobrze rozumiem, ¿e chodzi Ci o lewe tylne œwiat³o mijania w Volkswagenie Golfie IV (Golf 4)? Jeœli tak, to warto doprecyzowaæ, bo mo¿e chodziæ o jedno z poni¿szych:
+
+Mo¿liwe interpretacje:
+Lewe tylne œwiat³o pozycyjne (œwiat³o postojowe) – to œwiat³o, które œwieci siê z ty³u samochodu podczas jazdy, gdy masz w³¹czone œwiat³a mijania.
+
+Lewe œwiat³o mijania – przednie – czyli ¿arówka reflektora po stronie kierowcy z przodu.
+
+Lewe tylne œwiat³o przeciwmgielne – mylone czasem ze „œwiat³em mijania”, bo te¿ œwieci tylko z jednej strony.
+
+Jeœli chodzi Ci o:
+?? Lewe tylne œwiat³o pozycyjne (Golf 4 hatchback):
+¯arówka: P21/5W lub W5W (w zale¿noœci od wersji lampy).
+
+Znajduje siê w tylnej lewej lampie – trzeba zdj¹æ os³onê w baga¿niku, odkrêciæ oprawkê i wymieniæ ¿arówkê.
+
+?? Objawy, ¿e nie dzia³a:
+Brak œwiat³a po lewej stronie z ty³u przy w³¹czonych œwiat³ach.
+
+Komunikat na desce rozdzielczej (jeœli auto ma check control).
+
+Jeœli mo¿esz doprecyzowaæ:
+
+Czy chodzi o ty³ czy przód auta?
+
+Czy chcesz wiedzieæ jak¹ ¿arówkê kupiæ, jak j¹ wymieniæ, czy mo¿e jak zdiagnozowaæ usterkê?
+
+Chêtnie pomogê krok po kroku – tylko daj znaæ, o co dok³adnie chodzi ????
+
+
+
+Powiedzia³eœ(-aœ):
+VW golf4 lewe œwiat³o tylne pozycyjne wersja 1j1
+
+ChatGPT powiedzia³:
+Dziêki za doprecyzowanie! Mamy wiêc:
+
+?? VW Golf 4 (1J1)
+?? Lewe tylne œwiat³o pozycyjne
+?? Typ nadwozia hatchback (1J1)
+
+?? Informacje o ¿arówce:
+W wersji hatchback (1J1), lewe tylne œwiat³o pozycyjne to zazwyczaj:
+
+Typ ¿arówki: W5W (5 watów, ma³a szklana ¿arówka)
+lub
+
+P21/5W (¿arówka dwuw³óknowa – œwiat³o pozycyjne + stop)
+
+?? Dok³adny typ zale¿y od producenta lampy (Hella, Valeo, itd.), ale najczêœciej pozycyjne to W5W.
+
+?? Jak wymieniæ ¿arówkê (krok po kroku):
+Otwórz baga¿nik.
+
+Zdejmij materia³ow¹ os³onê po lewej stronie (czasem trzyma siê na zatrzaskach).
+
+Zlokalizuj modu³ ¿arówek – przykrêcony zwykle jedn¹ plastikow¹ nakrêtk¹.
+
+Odkrêæ nakrêtkê, wyjmij ca³¹ oprawkê lampy.
+
+ZnajdŸ ¿arówkê pozycyjn¹ (mniejsza, zwykle na skraju).
+
+Wymieñ na now¹ W5W lub P21/5W – w zale¿noœci od wersji.
+
+W³ó¿ z powrotem, skrêæ wszystko i gotowe.
+
+??? Dodatkowe wskazówki:
+Nie dotykaj szklanej czêœci nowej ¿arówki palcami – mo¿e to skróciæ jej ¿ywotnoœæ.
+
+Jeœli nowa ¿arówka nie œwieci – sprawdŸ bezpiecznik (F4 lub F10, zale¿nie od wersji), ewentualnie styki/oprawkê.
+
+Chcesz, ¿ebym dorzuci³ schemat bezpieczników albo numer czêœci OEM?
+
+
+
+Powiedzia³eœ(-aœ):
+schemat bezpieczników 
+
+ChatGPT powiedzia³:
+
+
+
+
+
+
+
+
+Oto schemat skrzynki bezpieczników dla Volkswagena Golfa IV (1J1) z nadwoziem hatchback, który pomo¿e Ci zlokalizowaæ bezpiecznik odpowiedzialny za lewe tylne œwiat³o pozycyjne.?
+AutoCodes.pl
+
+?? Lokalizacja skrzynki bezpieczników
+Skrzynka bezpieczników znajduje siê po lewej stronie deski rozdzielczej, za os³on¹ dostêpu. Aby j¹ otworzyæ, nale¿y zdj¹æ os³onê, co umo¿liwi dostêp do bezpieczników.?
+
+?? Przypisanie bezpieczników
+W skrzynce bezpieczników znajduj¹ siê nastêpuj¹ce bezpieczniki:?
+Allegro
+
+Nr 22: Œwiat³a pozycyjne i boczne prawe
+
+Nr 23: Œwiat³a pozycyjne i boczne lewe?
+
+Jeœli lewe tylne œwiat³o pozycyjne nie dzia³a, sprawdŸ bezpiecznik nr 23. Jeœli jest przepalony, wymieñ go na nowy o odpowiedniej wartoœci.?
+
+?? Dodatkowe uwagi
+Przed wymian¹ bezpiecznika upewnij siê, ¿e samochód jest wy³¹czony, aby unikn¹æ pora¿enia pr¹dem.
+
+U¿ywaj bezpieczników o identycznej wartoœci, aby zapewniæ prawid³owe dzia³anie uk³adu elektrycznego.
+
+Jeœli po wymianie bezpiecznika problem nadal wystêpuje, mo¿e to wskazywaæ na uszkodzenie przewodów lub samej lampy.?
+
+W razie potrzeby mogê pomóc w znalezieniu numeru katalogowego ¿arówki lub instrukcji wymiany tylnej lampy.?
+
+
+
+
+ród³a
+<div style="overflow: hidden; background-position: -297px -221.833px; text-align: center; background-color: rgb(255, 255, 255); width: 705px; height: 705px; float: left; background-size: 1000px 1000px; z-index: 100; border: 1px solid rgb(136, 136, 136); background-repeat: no-repeat; position: absolute; background-image: url(&quot;/hpeciai/1ce4ea99126158ffdbd3a8f263a06067/pol_pl_Bezpiecznik-samochodowy-STANDARD-7-5A-178971_2.webp&quot;); top: 0px; left: 480px; display: none;" class="zoomWindow">&nbsp;</div>
+
+
+https://sklep.avt.pl/pl/products/hpeciai/1ce4ea99126158ffdbd3a8f263a06067/pol_pl_Bezpiecznik-samochodowy-STANDARD-7-5A-178971_2.webp

@@ -1,0 +1,149 @@
+2023-04-27-PV.txt
+
+
+Panele MONO
+410W   sprawnoæ 80%
+V=31V
+
+
+Kingdom Solar KD-M410H-108 Half Cell 410W
+
+Vmp 31.22V
+Vo =37.06
+
+Imp 13.06A
+Iz = 13.7A
+
+
+
+4 -  125V  - MOC  1312W
+
+
+czyli to robi tylko falownik sta³e na zmienne
+dlatego trzeba dobraæ grza³kê do liczby paneli !!!!!
+
+
+dobieramy grza³kê zwyk³¹ na  AC 230V aby odebraæ moc 
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================
+PV bez sterownika
+
+napiêcie panela 
+pr¹d panela
+
+---------
+bez sterownika
+
+
+mppt dzia³a zeby nie obni¿yæ napiêcia paneli 
+
+np 70v     daje max moc
+sterownik dzia³a tak zeby to napiêcie nie spad³o , dobiera pobór pr¹du
+
+-------
+
+
+
+bez sterownika
+
+
+--------------
+olx panel 80W za 40z³
+
+cienkowarstwowe i steroniki z nimi nie pracuj¹
+
+
+wysokonapiêciowe , tanie
+
+1kW 500z³
+
+---------------
+
+
+
+
+mamy grza³kê
+
+
+ile wat paneli mo¿emy pod³aczyæ do naszej grza³kiu
+
+
+moc  grza³ki zalezy od napiêcia w kwadracie
+
+
+---------------------------------------
+
+moc grza³ki P = U*I
+
+grza³ka 1500W
+
+1500W = 230V * 6.5A   
+
+
+czy jak p³ynie 6.5A to mamy moc max grza³ki
+
+ILE pobierze grza³ka z OGNIW jak j¹ pod³¹czymy do paneli !!!????????
+
+
+------------------------------------
+
+
+moc grza³ki - U*U/R
+
+opór jest sta³y i niazalezny od napiêcia opornik
+
+
+
+wzór na moc bez pr¹du
+
+
+jak powiemy ¿e grza³ka ma 1500W to musimy podaæ przy jakim napiêciu
+
+
+ale jak powierzy ¿e to grza³ka 40om  to wiemy   ¿e przy 230V wydzieli siê moc 1322W
+
+
+
+
+OPÓR - jeden parametr (fizyczny)
+
+---------------------------------
+zmniejszy siê mnapiêcie 2 x - moc spadnie 4 razy
+
+
+
+
+
+Moc grza³ki nominalna P w zaleznoci od napiecia 
+to moc nominalna grza³ki przy 230V 
+razy napiêcie stringu paneli /230  do kwadratu
+
+
+
+Pv=Pnom*(Vov.Vnom)2
+
+
+
+
+
+
+
+
+
+
+
+
+
+

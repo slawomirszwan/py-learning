@@ -1,0 +1,511 @@
+2023-05-22-przekaünik -priorytetowy!!!!!!!.txt
+
+
+ gniazdko 
+ 
+ po lewej FAZA           po prawej neutralny
+  bolec u gÛry
+ od przody patrzπc na gniazdo
+ 
+ odkrecic 3 obroty
+ 
+ przekrÍciÊ zaczepy
+ 
+ ==============================
+ 
+ 
+ 
+  https://www.youtube.com/watch?v=-asyHJU6RG4
+ 
+ grza≥ka 2kW
+ 
+ 
+ urzπdzenie do regulacji mocy silnika
+ jak ustawimy takπ mamy moc grza≥ki             
+ - czyli chcemy pobieraÊ tyle ile ustawimy)
+ 
+ !!!!!!!!!!                                  
+ photowoltaika
+ grzanie wody cwu latem (øeby nie odpalaÊ pieca)
+                         
+
+ 
+ Inwerter: Volt sinus ULTRA 6000
+Panele: 6x Jasolar 385w
+Baterie: 2x 110Ah
+Kable, wy≥πczniki, liczniki i ca≥y osprzÍt.
+
+
+
+----------
+Panowie zajawkÍ macie super oglπdam od pewnego czasu i kibicuje.  
+Jest jedno ale przy 110Ah pojemnoúci, te obciπøenia to zabÛjstwo dla tych akumulatorÛw. 
+Z tego co dobrze jeszcze pamiÍtam z czasÛw aku kwasowych zalecany jest tu prπd 20h lub 5 h czyli na takπ pojemnoúÊ 
+bÍdzie to jakieú 20-25A obciπøenia maks co daje w systemie 24V jakieø 600W, a Wy mÛwicie tutaj o 2kW :/
+
+!!!!
+  
+
+PamiÍtaj, øe realna ciπg≥a moc jakπ moøe daÊ Ci VOLT 6000 to 1600W! 28V razy 60A MPPT. 
+Nawet przy maksymalnym s≥oÒcu i 20 panelach Wszystko powyøej 1600W bÍdzie dobierane z akumulatora.
+
+1700 Wat osiπga. ResztÍ ucina, nadmiar paneli fajnie dzia≥a przy mniej s≥onecznych dniach. Moøna pod≥πczyÊ dodatkowa ≥adowarkÍ do baterii i np 2 panele.
+
+--------------
+Jak dasz wiÍcej aku, ja mam 8 x100a i ustawienia dasz na 28,8 to ciπgnie do 3kw jak dzik
+---------
+@Roksana Czaja  Masz racjÍ, bÍdzie dawaÊ 3kW, ale nie ca≥oúÊ øe s≥oÒca. 
+Nawet w pelnym s≥oÒcu prosto w panele z paneli weümie tylko 1600-1700W a brakujπce 1300 dobierze z akumulatorÛw 
+jeúli bÍdπ na≥adowane. Jak akumulatory siÍ roz≥adujπ to prze≥πczy na sieÊ, a jak nie ma sieci to urzπdzenie siÍ wylaczy.
+
+-------------------------
+
+
+
+
+  A moøe zamiast tego regulatora zastπpiÊ jπ regulatorem grza≥ki el-car. Urzπdzenie samo siÍ wy≥πczy jak nagrzeje wodÍ. Poza tym od bezpiecznikÛw puszczasz kable na falownik i regulator jednoczeúni. Jak Volt bÍdzie potrzebowa≥ wiÍkszego poboru to z automatu zabierze go z regulatora. 
+OgÛlnie podoba mi siÍ koncepcja ????
+
+elcar max prπd to 13A
+
+Od kilku miesiÍcy mam taki system obs≥ugujπcy wydzielonπ fazÍ.Sens ma uøywanie tego w trybie PV-AC-BAT jako elektrowni przy dostatecznym nas≥onecznieniu do zasilania domowej sieci oraz przy zaniku zasilania jako UPS .Praca w offgridzie wykoÒczy akumulatory w 6-12 mies. i do "oszczÍdnoúci" trzeba jeszcze dop≥aciÊ a w razie W  gdy niezbÍdny jest UPS magazyn moøe úwieciÊ pustkami...:) przy pracy cyklicznej akumulatory ginπ w oczach, ile by ich nie by≥o
+
+
+
+Prπd z akumulatora kwasowego to ponad 2 z≥ za kWh wiÍc jest tak jak piszesz, a kaødy kto myúli øe ma darmowy prπd z baterii szybko siÍ przekona jak szybko poleci akumulator i niewiele tu zmieniajπ g≥Íbokoúci cyklÛw
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Najlepiej by akumulatory by≥y buforem gdy na chwilÍ zajdzie s≥oÒce a nie uøywaÊ ich jako magazyn energii, chyba øe mamy ich na prawdÍ duøo.
+
+
+
+Na DC nie widzÍ zabezpieczeÒ topikowych . Polecam do≥oøyÊ jeszcze minimum 4 akumulatory do≥πczyÊ rÛwnolegle gdyø tyle paneli za≥atwi Ci te 2 aku. Prπdy ≥adowania bÍdπ maksymalne w s≥oÒcu czyli ko≥o 50A. Prπdy roz≥adowania przy 2kv  zabijπ te aku w kilka miesiÍcy. Te aku bezpiecznie ≥adowaÊ moøna do 20A. ZwiÍkszajπc iloúÊ aku roz≥oøysz prπdy na wszystkie. Dok≥adajπc 4 aku bÍdziesz mia≥ po 3 rÛwnolegle czyli maksymalny prπd ≥adowania zamiast 20A bÍdziesz mia≥ 60.
+
+
+
+----------------
+ Podpowiem ze nie musisz bawiÊ siÍ w prze≥πczanie telefonem gniazdka Smart. Wystarczy tylko kupiÊ przekaünik priorytetowy na allegro za stÛwkÍ, pod≥πczyÊ w obwÛd zasilania bojlera jako nie priorytet a drugie wyjúcie priorytet w liniÍ i po ustawieniu prπdu zadzia≥ania, wszystko úmiga automatycznie.
+Druga sprawa to aku. ZaoszczÍdzi≥eú 20 tysi, to szybko zamawiaj celki lifepo4 i buduj magazyn. Nie bierz gotowych aku bo majπ bms-y. Ja o w≥os nie uszkodzi≥em swojego falownika jak bms wy≥πczy≥ zasilanie bateryjne. Wystarczπ same balancery, a resztÍ za≥atwiasz w ustawieniach falownika. Pozdrawiam.
+2
+Odpowiedz
+
+
+PRZEKAèNIK PRIORYTETOWY
+
+
+Przekaünik priorytetowy PR-615
+
+
+
+
+2 duøe odbiory !!!!!!!!!!!
+
+jeden 1200W grzejnik !!!!
+drugi czajnik elektryczny 1800W
+
+!!!!!!!!
+
+wpiete do gniazdek - osobnych podsieci 
+
+2 naraz to zadzia≥a Ska - przektroczenie bezpiecznika !!!!
+
+ 
+=========================================================================
+ ja mam takie pytanko jak obliczyÊ ile dane urzπdzenie pobiera Amer np. podgrzewacz przep≥ywowy 3 fazowy  18 Kwh 
+ jaki powinien byÊ bezpiecznik do takiego podgrzewacza ?
+          
+ 
+ 
+Tu masz przyk≥adowe obliczenia.
+
+ObwÛd 3-fazowy np. podgrzewacz wody. 
+ObwÛd wykonany przewodem 5x2,5mm2 , d≥ugoúci ok. 12m, P= 9kW 
+
+-prπd szczytowy(obliczeniowy) 
+
+Ib= P : (?3 x U) 
+
+Ib- Prπd w obwodzie 
+U- NapiÍcie sieci 400V 
+?3- 1,73 
+P- moc zainstalowana 
+
+Ib= 9000 : (1,73 x 400V) = 13A 
+
+DobÛr przewodu- ten sam warunek 
+Iz ? Ib 
+17,5 ? 13 Warunek spe≥niony 
+DobÛr zabezpieczenia przeciπøeniowego 
+Ib ? In ? Iz 
+I2 ? 1,45 x Iz 
+Dobrano wy≥πcznik nadprπdowy B 16A 
+13 ? 16 ? 17,5 
+1,45 x 16 ? 1,45 x 17,5 
+23,2 ? 25,37 Warunek spe≥niony
+
+
+=============================================================
+
+
+
+
+czajnik 7.4 Ampera  ok
+
+w≥πczenie dodATKOWEGO !!!!!
+grzejniczka termowentylator
+
+5.5.A
+
+zadzia≥a≥ bezpiecznik
+po chwili !!!!
+
+
+
+przekaünik priorytetowy
+
+lamki kontrolne
+
+zasilanie 
+zadzia≥anie
+
+
+styki do pod≥aczenia zasilania niepriorytetowego !!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+cewka na kablu pomiarowa     
+przek≥adnik prπdowy !!!!!
+
+mierzy 
+czy 8-9 p≥ynie prπd
+
+i prze≥πcza styki 
+
+11-10
+na 11-12
+
+
+
+
+===================================
+prπd odbiornika niepriorytetowego <16A   lub wiÍcej z zastosowaniem stycznika!!!
+
+
+prπd odbiornika prirytetowego ograniczony przekrojem przewodu odb priorytetowego
+
+
+
+Prπd prze≥πczania regulowany !!!!!!!!!!
+
+4do 30A
+
+przek≥adnik prπdowy wiÍc tylko do AC   (NIE DLA DC!!!!!!!!!!)
+
+histereza powrotu  10%
+opÛünienie prze≥πczania, powrotu 0,1sek
+
+
+
+2 wersje
+
+na szynÍ !!!
+do puszki  - jako skrzyneczka (do schowania na obiekcie)
+
+
+----------------
+prπd odbiornika priorytetowego <15A 
+nie jest prze≥πczany stykami , na nim jest przek≥adnik prπdowy
+
+jak jest wy≥≥aczony to moøna za≥πczyÊ przekaüniekiem odbiornik niepriorytetowy
+
+
+
+
+
+wersje z przek≥adnikiem prπdowym osobnym nie zintegrowanym z obudowπ øeby pomiar przesunπc na obiekt !!!!!!
+
+styki na przek≥adnik prπdowy
+
+-------------------------------------
+inna wersja z kana≥em przelotowym
+
+
+
+PR-614
+ https://www.fif.com.pl/pl/przekazniki-priorytetowe/202-przekaznik-priorytetowy-pr-614.html  
+ 
+ 
+ 
+-----------------------------
+ 
+odbiornik priorytetowy jest pod≥aczony ca≥y czas
+
+
+
+
+PEN razem 3
+neutralny razem 3
+
+na fazie
+
+kabel fazowy dop≥yw i kabel do odbiornika priorytetowego
+przepuniÊ przez przek≥adnik i z powrotem do puszki i do odbiornika
+
+
+
+
+
+moøe byÊ przewleczony 2x   3x
+øeby zwiekszyÊ czu≥oÊ przek≥adnika
+
+albo zbocznikowany øeby zmniejszyÊ czu≥osÊ
+!!!!
+
+
+U- wskaünik napiÍcia - zasilania
+
+
+poniøej lampka
+
+===============================================================
+
+
+Tuningowy sterownik / kontroler obrotÛw silnika elektrycznego szczotkowego - DC 48V 1000W - VT2
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+sterownik mocy DC !!!!!!!!!!!!!!!
+
+
+regulacja ile mocy ma przejÊ do grza≥ki !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+Sterownik marki POWER CARS ô VT2 - 48V 1000W
+
+170z≥otych ( do quada gokarta
+
+
+
+
+
+
+
+
+Wyjúcia sterownika - opis przewodÛw wyjúciowych:
+
+1 - Przewody grube - niebieski, øÛ≥ty: silnik DC
+2 - Przewody grube - czerwony, czarny: zasilanie / akumulatory
+3 - Brake: wyjúcie zwarciowe - wyjúcie pod düwigniÍ hamulca, przy zwarciu powoduje odciÍcie silnika i w≥πczenie úwiate≥ hamowania
+4 - Indicator : wyjúcie DC 4A - wskaüniki na≥adowania, klakson, úwiat≥a, alarmy
+5 - To put : sterownie prÍdkoúciπ - manetki, peda≥ gazu itp. urzπdzenia wskazujπce z czujnikiem halla
+6 - Brake lights: wyjúcie DC - úwiat≥a hamowania
+7 - Power Locks : wyjúcie zwarciowe - w≥πczanie / wy≥πczanie sterownika
+8 - Charge : wejúcie ≥adowania / ≥adowarki
+
+
+
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+
+ 
+ 
+ 
+ CIRF/PST/487/0000173144
+ 
+WKS-328000-0407
+
+ Pinging WKS-328000-0407.mf.gov.pl [10.35.2.37]
+ 
+   
+ 
+ od≥≥acz oprogramowanie od zestawu
+ US-N/149-WN      
+ 
+ 
+==================================================
+
+ProszÍ o przydzielenie i zainstalowanie pakietu Office (po uøytkowniku M. Winnicka) 
+
+
+na laptopie s≥uøbowym Lenovo ThinkPad L14 nr CIRF/PST/487/0000097005. 
+DziÍkujÍ.
+
+ 
+
+
+DT237-NKMQX-4QM2F-WFHWG-8TWC3
+
+0000000000000000000000000000000000
+
+
+karolina 
+program  microsoft office 
+
+cirf/pst/487/0000176573
+
+==========================================
+zg≥oszenie 
+
+
+
+komputer
+
+cirf/pst/487/0000177253
+
+
+WKS-328000-0602
+
+
+
+tel 9771
+
+
+
+WPR2266971
+31 marzec 2023
+-
+-------------------------------------
+
+
+--- 2023/04/12 11:41:12 (Szwan S≥awomir) ---
+!!!!!!!!!!!!!!!!!!!!!!!!
+korekta wniosku
+
+instalacja dotyczy :
+
+komputer1:
+---------
+CIRF/PST/487/0000177254
+WKS-328000-0603
+10.35.11.40
+
+komputer2
+----------------
+CIRF/PST/487/0000177249
+WKS-328000-0601
+10.35.11.37
+
+
+
+===================================================================
+ProszÍ o zainstalowanie na komputerze o 
+
+nr. CIRF/PST/487/0000177253 
+nr 0000177359
+
+WKS-328000-0602
+IP. 10.35.11.39
+pakietu OFFICE
+Komputer jest wykorzystywany do pracy analitycznej, tworzone sπ na nim pisma procesowe, tabele i arkusze w zwiπzku z kontrolami wykonywanymi w systemie SENT jak i innymi, dlatego niezbÍdnym jest aby komputer posiada≥ pakiet OFFICE
+
+
+---------------------------
+ZGL4677510
+WPR2285922
+---------------------------
+
+
+
+2023/04/14 09:46:11
+
+
+
+X:\>ping -a wks-328000-0602
+Pinging wks-328000-0602.mf.gov.pl [10.35.11.39] with 32 bytes of data:
+
+
+ProszÍ o zainstalowanie na komputerze o nr. 
+
+CIRF/PST/487/0000177253   nr 0000177359
+
+WKS-328000-0602
+IP. 10.35.11.39
+pakietu OFFICE
+Komputer jest wykorzystywany do pracy analitycznej, tworzone sπ na nim pisma procesowe, tabele i arkusze w zwiπzku z kontrolami wykonywanymi w systemie SENT jak i innymi, dlatego niezbÍdnym jest aby komputer posiada≥ pakiet OFFICE
+
+
+
+===============================================================================
+
+
+
+
+Ze wzglÍdu na tworzenie wielu statystyk, pism , koordynowanie spr. tytoniowych, 
+prezentacji multimedialnych, tabel., wykresÛw proszÍ o zainstalowanie na komputerze 
+
+o nr  0000177357 Piotr åwiderski Microsoft OFFICE 15
+
+
+
+Przydzielona licencja MS Office 2021 std o nr CIRF/WNP/0000164538
+--- 2023/03/31 13:26:22 (Deringer Ma≥gorzata) ---
+
+
+
+=================================================
+
+CIRF/PST/487/0000177251
+
+0000177357
+
+---------------------------------
+
+
+
+CIRF/PST/487/0000177251
+0000177357
+
+WKS-328000-0606
+
+
+
+=============================================================
+Informacja dot. "Jak zg≥aszaÊ incydenty bezpieczeÒstwa?
+Podobno wczoraj by≥ mail informacyjny informujπcy o tym jak zg≥aszaÊ incydenty bezpieczeÒstwa. Jak zwykle rozsy≥any najbardziej niezawodnym noúnikiem elektronicznym pocztπ elektronicznπ, U mnie wiadomoúÊ uleg≥a usuniÍciu (noúnik wybitnie nietrwa≥y,†przelotny i z natury tymczasowy)
+Czy ktoú wie gdzie moøna znaleüÊ informacje (jakøe istotne) ktÛre znajdowa≥y siÍ w tym ulotnym medium (moøe jakaú strona www, inna lokalizacja)† bo podejrzewam øe informacja moøe by≥ przydatna za pÛ≥ roku
+
+==============================================================
+
+
+
+JAK ZG£ASZA∆ INCYDENTY BEZPIECZE—STWA - PRZYPOMNIENIE
+
+ 
+
+Otrzyma≥eú/otrzyma≥aú podejrzanego mejla?
+Zauwaøy≥eú/zauwaøy≥aú opublikowane w zasobach RF nielegalne treúci?
+Ktoú naruszy≥ bezpieczeÒstwo danych osobowych lub w≥ama≥ siÍ na twoje konto w domenie MF?
+
+ 
+
+Zg≥oú incydent bezpieczeÒstwa!
+
+ 
+
+Jak to zrobiÊ znajdziesz w infografice przedstawiajπcej sposoby reagowania na takie sytuacje.
+
+ 
+
+Do zg≥oszenia dodaj dowÛd wystπpienia incydentu, tak aby ZespÛ≥ Reagowania na Incydenty BezpieczeÒstwa (ZRIB), mÛg≥ przeanalizowaÊ zdarzenie i podjπÊ odpowiednie kroki. 
+
+ 
+
+Jeúli zdarzenie dotyczy poczty elektronicznej, to wykorzystaj instrukcjÍ zapisywania oraz szyfrowania wiadomoúci e-mail w formatach *.eml oraz *.msg.
+
+ 
+
+Waøne, by to zrobiÊ poprawnie, aby nie rozsy≥aÊ potencjalnie zainfekowanych mejli.
+
+ 
+
+WiÍcej informacji znajdziesz w komunikatach na stronie intranetowej MF:
+
+1.       Uwaga na fa≥szywe i niebezpieczne e-maile!
+
+2.       Abecad≥o bezpieczeÒstwa - ZRIB, CPZI
+
+3.       Polityka bezpieczeÒstwa Teleinformatycznego
+
+ 
+

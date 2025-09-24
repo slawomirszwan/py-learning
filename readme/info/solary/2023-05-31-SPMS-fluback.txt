@@ -1,0 +1,43 @@
+po co ten kondenssator
+
+uzwojenia s¹ blisko siebie   owinbiete na tym samym rdzeniu
+druty obok siebie
+
+
+i tworzy siê pojemnosc miedzy uzwojeniami
+np kilka pF 
+
+
+ta pojemnosc przepuszcza sygna³y wysokiej czestotliwosci
+a tak¿e zatrzymuje sygna³y niskiej czêstot które chcemy uziemiæ
+
+
+
+jesli masz uziemienie po jednej stronie i potrzebujesz
+sciezki o wysokiej czestotliwosci do   uziemienia po drugiej stronie
+
+to bedzie to powodowac  to zwarcie
+to wlasnie robi ta    wysokosc
+to kondensator wysokiej czestotliwosciktory pozwala
+na wyt³umienie tych skoków o wysokiej czestotliwosci (sk³adowe impulsowe w.cz)
+
+
+t³umik harmonicznych w.cz
+strona zasilajaca tworzy duzo szumów harmonicznych w.cz
+i szum rozchodZi siê we wszystkie strony
+
+a kondensator zwiera sk³adowe w.cz     miedzy 2 cewkami
+
+
+obni¿a promieniowanie emi
+zak³ócenia fal
+
+
+
+
+
+
+
+
+
+

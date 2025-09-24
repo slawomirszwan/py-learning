@@ -1,0 +1,179 @@
+2023-05-11-NE555.txt
+
+
+sinus brany z sieci 220 z transformatora!!!!
+jako wzorzec !!!!!
+
+zsynchronizowany
+https://electronics.stackexchange.com/questions/105902/generating-pwm-from-rectified-sine-wave-using-555
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+https://www.instructables.com/DIY-a-NE555-Circuit-to-Generate-Sine-Wave/
+
+
+pi³oksztat³ny
+na komparator
+
+
+1 wejscie do pi³y
+drugie do prostok¹ta 
+(genetator rt ct)
+
+i wyjcie kluczuje przebieg  prostokatny wyzszej czestotliwosci
+
+https://www.homemade-circuits.com/5kva-transformerless-inverter-circuit/
+https://www.infineon.com/dgdl/irs2453d.pdf?fileId=5546d462533600a40153567ac42f2814
+
+
+
+
+9*14 =>126V
+
+9*12 => 110V
+
+9*12 => -110V
+
+z Akumulatorów mamy  +-110 V
+
+MASA  - czerwony +110V
+Masa = minus -110V
+
+!!!!
+
+
+generator dla pwm
+wzmacniacz ró¿nicowy
+sterowanie MOSFET
+
+kluczowanie mosfet
+Wype³nienie jak generator
+===================================
+
+
+
+tylko jak tak to w danej chwili zuzywam tylko pr¹d z po³owy paneli !!!!!
+
+
+dla akumulatora to mo¿e OK 
+ale dla paneli to tracê po³owê mocy dostepnej!!!!!!!!!!!!!!
+
+
+=====================================
+IRS2453 ma jakby w swoim rodku ju¿ zaszyty ne5555
+!!!!!!!!!!!!!!!!!!!
+
+plus dodatkowo sterowanie mostka H
+
+=========================================
+
+
+pseudo sinus
+
+sk³adany z licznika 
+4017
+
+
+=====================================
+
+
+https://www.homemade-circuits.com/make-this-1kva-1000-watts-pure-sine/
+
+
+ARDUINO !!!!!!!!!!!!!!!
+
+program do gen sinusa
+
+==============
+Program Code is given below:
+
+//code modified for improvement from http://forum.arduino.cc/index.php?topic=8563.0
+//connect pin 9 -> 10k Ohm + (series with)100nF ceramic cap -> GND, tap the sinewave signal from the point at between the resistor and cap.
+
+float wav1[3];//0 frequency, 1 unscaled amplitude, 2 is final amplitude
+int average;
+const int Pin = 9;
+float time;
+float percentage;
+float templitude;
+float offset = 2.5; // default value 2.5 volt as operating range voltage is 0~5V
+float minOutputScale = 0.0;
+float maxOutputScale = 5.0;
+const int resolution = 1; //this determines the update speed. A lower number means a higher refresh rate.
+const float pi = 3.14159;
+
+void setup() {
+wav1[0] = 50; //frequency of the sine wave
+wav1[1] = 2.5; // 0V - 2.5V amplitude (Max amplitude + offset) value must not exceed the "maxOutputScale"
+TCCR1B = TCCR1B & 0b11111000 | 1;//set timer 1B (pin 9) to 31250khz
+pinMode(Pin, OUTPUT);
+//Serial.begin(115200);//this is for debugging
+}
+
+void loop() {
+time = micros()% 1000000;
+percentage = time / 1000000;
+
+templitude = sin(((percentage) * wav1[0]) * 2 * pi);
+
+wav1[2] = (templitude * wav1[1]) + offset; //shift the origin of sinewave with offset.
+
+average = mapf(wav1[2],minOutputScale,maxOutputScale,0,255);
+
+analogWrite(9, average);//set output "voltage"
+
+delayMicroseconds(resolution);//this is to give the micro time to set the "voltage"
+}
+
+// function to map float number with integer scale - courtesy of other developers.
+long mapf(float x, float in_min, float in_max, long out_min, long out_max)
+{
+return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+
+=================================
+
+
+
+https://forum.arduino.cc/t/code-for-pwm-sine-wave-generator-some-questions/8627
+
+mo¿e tablica aproksymacyjna dla sinusa
+ka¿dy krok aproksymowaæ 
+
+takie schodki z wieloma punktami zbli¿ona do SIN
+nie trzeba obliczac sinus
+
+- tyle punktów w tablicy ile ktroków na 1 po³owê sinusa
+
+mo¿e wystarczyæ tylko  jedna æwiartka !!!!!!!!!!!!!!!!
+sinusa
+
+
+
+
+http://www.righto.com/2009/07/secrets-of-arduino-pwm.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/usr/local/bin/arduino-cli compile --fqbn arduino:sam:arduino_due_x --libraries /home/builder/opt/libraries/latest --build-cache-path /tmp --output-dir /tmp/142994465/build --build-path /tmp/arduino-build-1F5ABA344237D1AE914A0B4CCD0BCFDB /tmp/142994465/AnalogReadSerial
+
+/home/builder/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi-size -A /tmp/arduino-build-1F5ABA344237D1AE914A0B4CCD0BCFDB/AnalogReadSerial.ino.elf
+
+Sketch uses 11116 bytes (2%) of program storage space. Maximum is 524288 bytes.
+
